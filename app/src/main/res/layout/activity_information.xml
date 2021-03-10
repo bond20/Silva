@@ -10,7 +10,15 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Information"
-        tools:layout_editor_absoluteX="172dp"
-        tools:layout_editor_absoluteY="57dp" />
+        android:layout_marginStart="169dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="169dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/title_information_page"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

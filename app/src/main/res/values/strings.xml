@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Silva</string>
+    <string name="title_sleep_analysis_page">Sleep Analysis</string>
+    <string name="title_information_page">Information</string>
 </resources>
