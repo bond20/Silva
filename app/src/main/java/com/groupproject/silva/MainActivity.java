@@ -33,14 +33,14 @@ public class MainActivity extends AppCompatActivity {
                 openInfo();
             }
         });
-        sleepimg = (ImageView)findViewById(R.id.imageView);
+        sleepimg = (ImageView)findViewById(R.id.SleepAnalysisIcon);
         sleepimg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openSleepAnalysis();
             }
         });
-        sleepimg = (ImageView)findViewById(R.id.imageView2);
+        sleepimg = (ImageView)findViewById(R.id.InformationIcon);
         sleepimg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
