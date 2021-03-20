@@ -2,4 +2,9 @@
     <string name="app_name">Silva</string>
     <string name="title_sleep_analysis_page">Sleep Analysis</string>
     <string name="title_information_page">Information</string>
+    <string name="title_sleep_analysis_homepage">Sleep Analysis</string>
+    <string name="title_information_homepage">Information</string>
+    <string name="title_app_name_homepage">Silva</string>
+    <string name="icon_sleep_analysis_homepage">sleep analysis icon image</string>
+    <string name="icon_information_homepage">Silva</string>
 </resources>

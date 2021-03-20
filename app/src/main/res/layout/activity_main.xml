@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Silva"
+        android:text="@string/title_app_name_homepage"
         android:textSize="50sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -21,7 +21,7 @@
         android:id="@+id/sleep_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sleep Analysis"
+        android:text="@string/title_sleep_analysis_homepage"
         android:textAlignment="center"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -35,7 +35,7 @@
         android:id="@+id/information_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Information"
+        android:text="@string/title_information_homepage"
         android:textAlignment="center"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -46,28 +46,31 @@
         app:layout_constraintVertical_bias="0.47" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/SleepAnalysisIcon"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:contentDescription="@string/icon_sleep_analysis_homepage"
         app:layout_constraintBottom_toTopOf="@+id/sleep_text"
         app:layout_constraintEnd_toEndOf="@+id/sleep_text"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/sleep_text"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/replace_1">
-    </ImageView>
+        app:srcCompat="@drawable/sleep_cartoon_art_copyrighted"
+        tools:srcCompat="@drawable/sleep_cartoon_art_copyrighted" />
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/InformationIcon"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:contentDescription="@string/icon_information_homepage"
         app:layout_constraintBottom_toTopOf="@+id/information_text"
         app:layout_constraintEnd_toEndOf="@+id/information_text"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.38"
         app:layout_constraintStart_toStartOf="@+id/information_text"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/replace_2" />
+        app:srcCompat="@drawable/information_cartoon_copyrighted"
+        tools:srcCompat="@drawable/information_cartoon_copyrighted" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
