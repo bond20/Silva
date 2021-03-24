@@ -7,4 +7,6 @@
     <string name="title_app_name_homepage">Silva</string>
     <string name="icon_sleep_analysis_homepage">sleep analysis icon image</string>
     <string name="icon_information_homepage">Silva</string>
+    <string name="text_sleep_analysis_1">i</string>
+    <string name="text_sleep_analysis_2">If you go sleep now. The Healthiest time to wake up would be:</string>
 </resources>
