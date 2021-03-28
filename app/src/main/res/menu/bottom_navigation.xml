@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/sleepAnalysisID"
+        android:icon="@drawable/closeimg"
+        android:title="@string/title_sleep_analysis_page" />
+    <item
+        android:icon="@drawable/checkimg"
+        android:title="@string/title_information_page" />
+</menu>
