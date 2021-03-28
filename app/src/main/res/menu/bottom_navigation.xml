@@ -2,10 +2,18 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
+        android:checkable="false"
+        android:checked="false"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="To Do List" />
+    <item
+        android:icon="@android:drawable/ic_menu_my_calendar"
+        android:title="Event Calendar" />
+    <item
         android:id="@+id/sleepAnalysisID"
-        android:icon="@drawable/closeimg"
+        android:icon="@android:drawable/ic_lock_idle_alarm"
         android:title="@string/title_sleep_analysis_page" />
     <item
-        android:icon="@drawable/checkimg"
+        android:icon="@android:drawable/ic_menu_info_details"
         android:title="@string/title_information_page" />
 </menu>
