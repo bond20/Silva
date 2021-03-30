@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph">
+
+
+    <activity
+        android:id="@+id/sleepAnalysis"
+        android:name="com.groupproject.silva.SleepAnalysis"
+        android:label="activity_sleep_analysis"
+        tools:layout="@layout/activity_sleep_analysis" />
+    <activity
+        android:id="@+id/information"
+        android:name="com.groupproject.silva.Information"
+        android:label="activity_information"
+        tools:layout="@layout/activity_information" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.groupproject.silva.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+</navigation>
