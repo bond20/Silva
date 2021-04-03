@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Silva">
-        <activity android:name=".Pop_up_sleepActivity"></activity>
+        <activity
+            android:name=".InfoActivity"
+            android:label="@string/title_activity_info"
+            android:theme="@style/Theme.Silva.NoActionBar"></activity>
+        <activity android:name=".Pop_up_sleepActivity" />
         <activity android:name=".Pop_up_setrectimeActivity" />
         <activity android:name=".SplashScreen">
             <intent-filter>

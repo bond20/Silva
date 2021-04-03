@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
     }
     
     private void openInfo() {
-        Intent intent = new Intent(MainActivity.this, Information.class);
+        Intent intent = new Intent(MainActivity.this, InfoActivity.class);
         startActivity(intent);
     }
     
