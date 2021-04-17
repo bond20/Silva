@@ -83,4 +83,26 @@
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/bottom_navigation" />
 
+    <ImageButton
+        android:id="@+id/ToDoIcon"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="@+id/to_do_text"
+        app:layout_constraintStart_toStartOf="@+id/to_do_text"
+        app:layout_constraintTop_toBottomOf="@+id/sleep_text"
+        app:srcCompat="@android:drawable/checkbox_on_background" />
+
+    <TextView
+        android:id="@+id/to_do_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_to_do_list"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.252"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ToDoIcon" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

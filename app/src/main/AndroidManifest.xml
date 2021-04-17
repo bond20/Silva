@@ -12,7 +12,7 @@
         <activity
             android:name=".InfoActivity"
             android:label="@string/title_activity_info"
-            android:theme="@style/Theme.Silva.NoActionBar"></activity>
+            android:theme="@style/Theme.Silva.NoActionBar" />
         <activity android:name=".Pop_up_sleepActivity" />
         <activity android:name=".Pop_up_setrectimeActivity" />
         <activity android:name=".SplashScreen">
@@ -21,9 +21,11 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
         <activity android:name=".Information" />
         <activity android:name=".SleepAnalysis" />
+        <activity android:name=".ToDoList" />
         <activity
             android:name=".MainActivity"
             android:label="Home" />

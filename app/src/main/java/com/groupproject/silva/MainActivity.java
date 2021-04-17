@@ -1,6 +1,7 @@
 package com.groupproject.silva;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.ViewModelProvider;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,16 +9,21 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.groupproject.silva.to_do_model.TaskViewInterface;
+
 public class MainActivity extends AppCompatActivity {
+
+
     
     TextView sleeptext,infotext;
-    ImageView sleepimg,infoimg;
+    ImageView sleepimg,infoimg, toDoImg;
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
+
+
         sleeptext = (TextView)findViewById(R.id.sleep_text);
         sleeptext.setOnClickListener(new View.OnClickListener() {
             
@@ -40,13 +46,22 @@ public class MainActivity extends AppCompatActivity {
                 openSleepAnalysis();
             }
         });
-        sleepimg = (ImageView)findViewById(R.id.InformationIcon);
-        sleepimg.setOnClickListener(new View.OnClickListener() {
+        infoimg = (ImageView)findViewById(R.id.InformationIcon);
+        infoimg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openInfo();
             }
         });
+
+        toDoImg = (ImageView)findViewById(R.id.ToDoIcon);
+        toDoImg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openToDO();
+            }
+        });
+
     }
     
     private void openInfo() {
@@ -56,6 +71,11 @@ public class MainActivity extends AppCompatActivity {
     
     private void openSleepAnalysis() {
         Intent intent = new Intent(MainActivity.this, SleepAnalysis.class);
+        startActivity(intent);
+    }
+
+    private void openToDO() {
+        Intent intent = new Intent(MainActivity.this, ToDoList.class);
         startActivity(intent);
     }
 }
