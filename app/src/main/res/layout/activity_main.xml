@@ -97,7 +97,7 @@
         android:cropToPadding="false"
         android:scaleType="centerInside"
         app:layout_constraintEnd_toEndOf="@+id/to_do_text"
-        app:layout_constraintHorizontal_bias="0.379"
+        app:layout_constraintHorizontal_bias="0.448"
         app:layout_constraintStart_toStartOf="@+id/to_do_text"
         app:layout_constraintTop_toBottomOf="@+id/sleep_text"
         app:srcCompat="@drawable/vectorstock_6342160"
@@ -111,7 +111,7 @@
         android:textAlignment="center"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.206"
+        app:layout_constraintHorizontal_bias="0.212"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ToDoIcon" />
 
@@ -120,11 +120,23 @@
         android:layout_width="125dp"
         android:layout_height="125dp"
         android:layout_marginTop="48dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toEndOf="@+id/ToDoIcon"
+        app:layout_constraintEnd_toEndOf="@+id/textView6"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
         app:layout_constraintTop_toBottomOf="@+id/information_text"
         app:srcCompat="@drawable/vectorstock_58511273"
         tools:srcCompat="@drawable/vectorstock_58511273" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="142dp"
+        android:layout_height="26dp"
+        android:text="Event Calendar"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toEndOf="@+id/to_do_text"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
