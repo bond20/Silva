@@ -29,6 +29,10 @@
         <activity
             android:name=".MainActivity"
             android:label="Home" />
+        <activity android:name=".EventCalendar"/>
+
+
+
     </application>
 
 </manifest>

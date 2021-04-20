@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     
     TextView sleeptext,infotext;
-    ImageView sleepimg,infoimg, toDoImg;
+    ImageView sleepimg,infoimg, toDoImg, calendarImg;
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,6 +62,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        calendarImg = (ImageView)findViewById(R.id.CalendarIcon);
+        calendarImg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openEventCalendar();
+            }
+        });
+
     }
     
     private void openInfo() {
@@ -76,6 +84,11 @@ public class MainActivity extends AppCompatActivity {
 
     private void openToDO() {
         Intent intent = new Intent(MainActivity.this, ToDoList.class);
+        startActivity(intent);
+    }
+
+    private void openEventCalendar() {
+        Intent intent = new Intent(MainActivity.this, EventCalendar.class);
         startActivity(intent);
     }
 }

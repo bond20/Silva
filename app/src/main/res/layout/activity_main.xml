@@ -79,6 +79,7 @@
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:visibility="invisible"
         app:labelVisibilityMode="labeled"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -116,7 +117,7 @@
         app:layout_constraintTop_toBottomOf="@+id/ToDoIcon" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/CalendarIcon"
         android:layout_width="125dp"
         android:layout_height="125dp"
         android:layout_marginTop="48dp"
@@ -137,6 +138,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toEndOf="@+id/to_do_text"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/CalendarIcon" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
