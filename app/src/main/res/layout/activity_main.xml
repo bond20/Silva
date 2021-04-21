@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="serif"
+        android:fontFamily="@font/nexa_bold"
         android:text="@string/title_app_name_homepage"
         android:textAllCaps="true"
         android:textSize="64sp"
@@ -27,7 +27,7 @@
         android:id="@+id/sleep_text"
         android:layout_width="141dp"
         android:layout_height="27dp"
-        android:fontFamily="sans-serif"
+        android:fontFamily="@font/nexa_light"
         android:text="@string/title_sleep_analysis_homepage"
         android:textAlignment="center"
         android:textSize="20sp"
@@ -46,6 +46,7 @@
         android:layout_height="25dp"
         android:layout_marginEnd="60dp"
         android:text="@string/title_information_homepage"
+        android:fontFamily="@font/nexa_light"
         android:textAlignment="center"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -116,6 +117,7 @@
         android:layout_height="26dp"
         android:text="@string/title_to_do_list"
         android:textAlignment="center"
+        android:fontFamily="@font/nexa_light"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.212"
@@ -137,15 +139,16 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="142dp"
-        android:layout_height="26dp"
+        android:layout_width="180dp"
+        android:layout_height="25dp"
+        android:fontFamily="@font/nexa_light"
         android:text="Event Calendar"
         android:textAlignment="center"
+        android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toEndOf="@+id/to_do_text"
-        app:layout_constraintTop_toBottomOf="@+id/CalendarIcon"
-        android:textColor="@color/black" />
+        app:layout_constraintTop_toBottomOf="@+id/CalendarIcon" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

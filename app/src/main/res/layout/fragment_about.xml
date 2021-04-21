@@ -8,10 +8,15 @@
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="quiz"
+        android:layout_width="342dp"
+        android:layout_height="516dp"
+        android:fontFamily="@font/nexa_light"
         android:layout_centerInParent="true"
-        android:textSize="30dp"
-        />
+        android:text="We are a team put together by the University of Huddersfield to create a useful app. \n \n Our aim is to create a app which can help students or anyone to be more productive in their life.
+        \n \n Our members are: \n Muhammad Noon \n Jun Bond Lee
+        \n Amaz Mohammed
+\n Mohammed Kazmi
+\n Sachin Mistry
+"
+        android:textSize="25dp" />
 </RelativeLayout>
