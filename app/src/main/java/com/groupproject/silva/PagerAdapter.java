@@ -24,8 +24,8 @@ public class PagerAdapter extends FragmentStatePagerAdapter {
                 return infoFragment;
 
             case 2:
-                QuizFragment quizFragment = new QuizFragment();
-                return quizFragment;
+                AboutFragment aboutFragment = new AboutFragment();
+                return aboutFragment;
 
             default:
                 return null;

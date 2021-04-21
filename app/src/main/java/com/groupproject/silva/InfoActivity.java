@@ -8,7 +8,7 @@ import android.os.Bundle;
 
 import com.google.android.material.tabs.TabLayout;
 
-public class InfoActivity extends AppCompatActivity implements TutorialFragment.OnFragmentInteractionListener, InfoFragment.OnFragmentInteractionListener, QuizFragment.OnFragmentInteractionListener {
+public class InfoActivity extends AppCompatActivity implements TutorialFragment.OnFragmentInteractionListener, InfoFragment.OnFragmentInteractionListener, AboutFragment.OnFragmentInteractionListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +18,7 @@ public class InfoActivity extends AppCompatActivity implements TutorialFragment.
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tablayout);
         tabLayout.addTab(tabLayout.newTab().setText("Tutorial"));
         tabLayout.addTab(tabLayout.newTab().setText("Info"));
-        tabLayout.addTab(tabLayout.newTab().setText("Quiz"));
+        tabLayout.addTab(tabLayout.newTab().setText("About"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
