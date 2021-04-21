@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#DEF7D4"
     tools:context=".MainActivity">
 
     <TextView
@@ -18,7 +19,9 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.046" />
+        app:layout_constraintVertical_bias="0.046"
+        android:textColor="@color/black"
+        />
 
     <TextView
         android:id="@+id/sleep_text"
@@ -33,7 +36,9 @@
         app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.47" />
+        app:layout_constraintVertical_bias="0.47"
+        android:textColor="@color/black"
+        />
 
     <TextView
         android:id="@+id/information_text"
@@ -46,7 +51,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.468" />
+        app:layout_constraintVertical_bias="0.468"
+        android:textColor="@color/black" />
 
     <ImageView
         android:id="@+id/SleepAnalysisIcon"
@@ -114,7 +120,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.212"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ToDoIcon" />
+        app:layout_constraintTop_toBottomOf="@+id/ToDoIcon"
+        android:textColor="@color/black" />
 
     <ImageView
         android:id="@+id/CalendarIcon"
@@ -138,6 +145,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toEndOf="@+id/to_do_text"
-        app:layout_constraintTop_toBottomOf="@+id/CalendarIcon" />
+        app:layout_constraintTop_toBottomOf="@+id/CalendarIcon"
+        android:textColor="@color/black" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

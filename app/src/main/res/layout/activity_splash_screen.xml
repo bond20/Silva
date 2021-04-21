@@ -13,31 +13,31 @@
     android:orientation="vertical">
 
     <ImageView
-        android:src="@drawable/icon"
-        android:layout_gravity="center"
+        android:id="@+id/image1"
         android:layout_width="300dp"
-        android:layout_height="300dp">
-    </ImageView>
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:src="@drawable/icon"></ImageView>
 
     <TextView
-        android:layout_marginTop="10dp"
-        android:layout_gravity="center"
+        android:id="@+id/text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
         android:text="Silva"
+        android:textColor="@color/white"
         android:textSize="50dp"
-        android:textStyle="italic"
-        android:textColor="@color/white">
-    </TextView>
+        android:textStyle="italic"></TextView>
 
     <TextView
-        android:layout_marginTop="10dp"
-        android:layout_gravity="center"
+        android:id="@+id/text2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
         android:text="Powered By Brute Force"
-        android:textSize="23sp"
-        android:textColor="@color/white">
-    </TextView>
+        android:textColor="@color/white"
+        android:textSize="23sp"></TextView>
 </LinearLayout>
 </RelativeLayout>
