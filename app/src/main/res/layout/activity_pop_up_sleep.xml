@@ -62,7 +62,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="15dp"
         android:layout_marginRight="10dp"
-        android:text="Press start to begin a 15 minute countdown. You can pause during the countdown and reset it.\n\nRest a short period of time after each times of work\n*Rest longer after the 4th times"
+        android:text="Press start to begin a 25 minute countdown. You can pause during the countdown and reset it.\n\nRest a short period of time after each piece of work\n*Rest longer after the 4th time "
         android:textAlignment="center"
         android:textSize="15sp"
         android:fontFamily="@font/nexa_bold"
