@@ -35,7 +35,7 @@ public class SleepAnalysis extends AppCompatActivity {
     Button button_pop_up,STimer,RTimer;
     int Chour, Cmin;
     
-    long Timeleft = 900000;
+    long Timeleft = 25 * 60000;//60000 is 1 minutes
     long TDuration = Timeleft;
     boolean RunningTime;
     CountDownTimer countDownTimer;

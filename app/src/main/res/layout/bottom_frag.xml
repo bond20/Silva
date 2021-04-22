@@ -18,6 +18,8 @@
         android:layout_marginTop="32dp"
         android:ems="10"
         android:hint="e.g. Complete teams assignment"
+        android:textColorHint="#808080"
+        android:textColor="@color/black"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
