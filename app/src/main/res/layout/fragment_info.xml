@@ -7,12 +7,68 @@
     tools:context=".InfoFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="info"
-        android:layout_centerInParent="true"
-        android:textSize="30dp"
-        />
+    <LinearLayout
+        android:gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/table">
+        </ImageView>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:text="People working from home, tend to procrastinate as low-quality sleep is associated with high levels of procrastination. Therefore, a good quality sleep is vital to ensure the productive potential of a working individual which can be monitored by sleep analysis. The table above shows the recommended times for sleeping."
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:fontFamily="@font/nexa_bold">
+        </TextView>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Aside from not getting enough sleep causing people to be less productive, people who do not take a break during tasks are less productive than those who take breaks during tasks. "
+            android:textColor="@color/black"
+            android:fontFamily="@font/nexa_bold"
+            android:textSize="15sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Using our To-Do list you can schedule out your work and make sure you stay on top of it."
+            android:textColor="@color/black"
+            android:fontFamily="@font/nexa_bold"
+            android:textSize="15sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="If you have any other questions or suggestions you can email us at bruteforceteam01@gmail.com
+"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nexa_bold"
+            android:textSize="15sp">
+        </TextView>
+
+    </LinearLayout>
+
+
+
 
 </RelativeLayout>

@@ -6,13 +6,90 @@
     android:background="#DEF7D4"
     tools:context=".TutorialFragment">
 
-    <!-- TODO: Update blank fragment layout -->
+<LinearLayout
+    android:gravity="top"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/step1">
+    </ImageView>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="tutorial"
-        android:layout_centerInParent="true"
-        android:textSize="30dp"
-        />
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Step 1 : Tap the plus button"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:fontFamily="@font/nexa_bold">
+    </TextView>
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/step2">
+    </ImageView>
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Step 2 : Write what you need to do then choose the date you need it done by. Then tap the green tick."
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:fontFamily="@font/nexa_bold">
+    </TextView>
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/step3">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Step 3 : When you have completed the task, tap the circle."
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:fontFamily="@font/nexa_bold">
+    </TextView>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/step4">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Step 4 : Tap okay to get rid of the task."
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:fontFamily="@font/nexa_bold">
+    </TextView>
+
+</LinearLayout>
 
 </RelativeLayout>

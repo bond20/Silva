@@ -6,17 +6,53 @@
     android:background="#DEF7D4"
     tools:context=".AboutFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="342dp"
-        android:layout_height="516dp"
-        android:fontFamily="@font/nexa_light"
-        android:layout_centerInParent="true"
-        android:text="We are a team put together by the University of Huddersfield to create a useful app. \n \n Our aim is to create a app which can help students or anyone to be more productive in their life.
-        \n \n Our members are: \n Muhammad Noon \n Jun Bond Lee
+    <LinearLayout
+        android:gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/icon">
+        </ImageView>
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nexa_bold"
+            android:text="We are a team put together by the University of Huddersfield to create a useful app."
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nexa_bold"
+            android:text="Our aim is to create a app which can help students or anyone to be more productive in their life."
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nexa_bold"
+            android:text="Our Team members are: \n Muhammad Noon \n Jun Bond Lee
         \n Amaz Mohammed
 \n Mohammed Kazmi
-\n Sachin Mistry
-"
-        android:textSize="25dp" />
+\n Sachin Mistry"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <!-- TODO: Update blank fragment layout -->
+
 </RelativeLayout>
