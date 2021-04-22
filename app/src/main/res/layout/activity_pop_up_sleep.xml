@@ -14,6 +14,7 @@
         android:id="@+id/close_popup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:src="@drawable/closeimg"
         app:layout_constraintBottom_toTopOf="@id/popup_info_title"
         app:layout_constraintEnd_toEndOf="parent"
@@ -39,14 +40,31 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:text="this is the information of the recommended time"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textAlignment="center"
+        android:text="Press the circle to display the current time,\n this will update the recommended sleeping time "
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/popup_info_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/popup_info_title">
+    </TextView>
+
+    <TextView
+        android:id="@+id/popup_info_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:text="Press the start button to start the 15 minute rest timer. You can pause during the countdown and reset it."
+        android:textAlignment="center"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/popup_info_title">
+        app:layout_constraintTop_toBottomOf="@id/popup_info_des">
 
     </TextView>
 
