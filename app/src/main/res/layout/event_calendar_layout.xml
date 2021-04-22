@@ -12,6 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/nexa_bold"
+        android:textColor="@color/black"
         android:text="Calendar"
         android:textAlignment="center"
         android:textSize="64sp"
